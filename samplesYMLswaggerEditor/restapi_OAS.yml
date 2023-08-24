@@ -1,0 +1,207 @@
+openapi: 3.0.3
+
+info:
+  title: Training on CRUD operations by MongoDB 
+  description:
+    this is practice sample creating documentation for
+    my restAPI for CRUD operations. This originally
+    developed by trainer kishore kumar for MySQL, further improved 
+    by adding little changes developed for mongoDB.
+  version: 1.0.0
+  # contact: Utkarsha.Hajare@radisys.com
+  # license:
+  #   name: sample 1.0
+  #   url: http://localhost:9000/student/students
+servers:
+- url: http://127.0.0.1:9000/student
+
+
+paths:
+  # Define your API endpoints and operations here
+  /students:
+    get:
+      tags:
+        - Read
+      summary: Reading records.
+      description: Reading indiviual or all records from DB.
+      operationId: readRecord
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Student'              
+  /student:
+    get:
+      tags:
+        - Read
+      summary: Find student by Roll No.
+      description: Returns a single Student
+      operationId: readStudentbyRollno
+      parameters:
+        - name: roll
+          in: query
+          description: Roll No of Student to return
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Student'          
+            
+        '400':
+          description: Invalid Roll No supplied
+        '404':
+          description: Student not found
+    post:
+      tags:
+        - Create
+      summary: Add a new student to the DB
+      description: Add a new student to the DB
+      operationId: addStudent
+      requestBody:
+        description: Create a new student to the DB
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Student'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Student'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Student'          
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Student'
+        '405':
+          description: Invalid input
+
+    delete:
+      tags:
+        - Delete
+      summary: Deletes a student
+      description: delete a student
+      operationId: deleteStudent
+      parameters:
+        - name: roll
+          in: query
+          description: Student roll number to delete.
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '400':
+          description: Invalid roll number
+
+    put:
+      tags:
+        - Update
+      summary: Update an existing student
+      description: Update an existing student name and rank by roll no
+      operationId: updateStudent
+      requestBody:
+        description: please provide correct roll no for which you
+                      want to update name and rank reffer 
+                      to example format provided
+
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/updateStudentFormat'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/updateStudentFormat'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/updateStudentFormat'
+        required: true
+      responses:
+        '202':
+          description: Accepted
+          # content:
+          #   application/json:
+          #     schema:
+          #       $ref: '#/components/schemas/Student'          
+          #   application/xml:
+          #     schema:
+          #       $ref: '#/components/schemas/Student'
+        '400':
+          description: Invalid roll no supplied
+        '404':
+          description: Student not found
+     
+components:
+  schemas:
+    updateStudentFormat:
+      type: object
+      properties:
+        rollNo:
+          type: integer
+          format: int32
+          example: 5
+        name:
+          type: string
+          example: newName
+        rank:
+          type: integer
+          format: int32
+          example: 2
+    ApiResponse:
+      type: object
+      properties:
+        timestamp:
+          type: string
+        status:
+          type: integer
+          format: int32
+        error:
+          type: string       
+        errorMessage:
+          type: string
+          
+    Student:
+      type: object
+      properties:
+        rollNo:
+          type: integer
+          format: int64
+          example: 12
+        name:
+          type: string
+          example: fehguy
+        age:
+          type: integer
+          format: int64
+          example: 11
+        phNo:
+          type: string
+          example: 123
+        percentage:
+          type: number
+          multipleOf: 0.1
+          example: 78.1
+        class_:
+          type: string
+          example: 2
+        rank:
+          type: integer
+          format: int64
+          example: 1
+
+        
+
