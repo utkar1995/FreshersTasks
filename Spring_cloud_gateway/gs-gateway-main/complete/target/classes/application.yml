@@ -1,0 +1,18 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: CRUD_mongoDBGateway
+  cloud:
+    gateway:
+      routes:
+      - id: crud_op_student
+        uri:
+          http://localhost:9091
+        predicates:
+        - path=/student/**
+      - id: crud_op_faculty
+        uri:
+          http://localhost:9091
+        predicates:
+        - path=/faculty/**

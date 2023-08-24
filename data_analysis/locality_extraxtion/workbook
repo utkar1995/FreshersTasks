@@ -1,0 +1,258 @@
+my understanding of extracting locality from sample datapoint:
+sample data point:
+db.getCollection("poi_data_sample").insert({
+    "is_searchable": true,
+    "display_on_map": false,
+    "zoom_level": 13,
+    "type": "",
+    "location": {
+        "type": "Point",
+        "coordinates": [
+            90.445992,
+            20.670755
+        ]
+    },
+    "main_category": "Education",
+    "sub_categories": [
+        "University"
+    ],
+    "display_name": "",
+    "full_name": "Delhi University",
+    "aliases": [
+        "UB ATM"
+    ],
+    "country_name": "India",
+    "state_name": "Utter Pradesh",
+    "district_name": "Ghaziabad",
+    "city_name": "Ghaziabad",
+    "locality_name": "sudisa, sidsdoi",
+    "sub_locality_1_name": "",
+    "building_number": "",
+    "floor_number": "",
+    "pin_code": "99999999",
+    "last_updated_on": ISODate("2023-04-06T20:12:15.679+05:30"),
+    "source": "Internal",
+    "external_references": [],
+    "filtration_tag": [
+        "non-poi"
+    ],
+    "rule_applied": {
+        "rule_id": "100.1",
+        "rule_applied_date": ISODate("2023-04-13T19:24:14.513+05:30")
+    }
+})
+
+locality might contain anything like below row
+
+	1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+	Eiffel Tower, Paris, France
+
+	statue.angel.smooth (A location in Central Park, New York City)
+
+	FN31pr (A location in New York City)
+
+	9G8WFPCJ+J4 (A location in Mumbai, India)
+
+	Lot 42, Township 7N, Range 4W
+
+	90210 postal codes
+
+	landmarks eg gate way of india
+	
+extract correct locality from locality_name field
+
+1. contains no number, e.g: 42/3,90,32-3
+2. if it has east,west,south,north extract from main word return, e.g: malad east, bandra(west)
+3. if its only one word locality then return,
+4. in case of multiple words should not be in sublocality check using contains from both side if anyone of true then drop
+5. non acceptable keywords
+
+[["mall", "Bank of", "floor", "Estate", "room", "plot", "near", "opp", "next", "beside", "society", "chs", "behind","before","blg","building"]]
+	no postal codes
+	no floor_number
+	no building_number
+	no sub_locality_1_name
+	no city_name
+	no country_name
+	no state_name
+	no district_name
+
+
+ideas can we maintain different localities list
+
+examples:
+
+from given json data how to extract exact locality? locality_name field may have many sublocalities other noisy data, task here is to get only real time locality of one word from locality_name field
+	json data = 
+	{
+	"country_name": "India",
+    "state_name": "Utter Pradesh",
+    "district_name": "Ghaziabad",
+    "city_name": "Ghaziabad",
+    "locality_name": "sudisa, sidsdoi",
+    "sub_locality_1_name": "",
+    "building_number": "",
+    "floor_number": "",
+    "pin_code": "99999999"
+	}
+	,
+	
+	{
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "bandra",
+    "sub_locality_1_name": "bandra west",
+    "building_number": "90/4",
+    "floor_number": "3",
+    "pin_code": "99999999"
+	},
+	{
+	
+	"country_name": "India",
+    "state_name": "Karnataka",
+    "district_name": "Bengaluru",
+    "city_name": "Bengaluru",
+    "locality_name": "88, Ratna Vilas Road, Southend Circle, Basavanagudi,",
+    "sub_locality_1_name": "Ratna Vilas Road",
+    "building_number": "88",
+    "floor_number": "",
+    "pin_code": "560004"
+	},
+	
+	{
+	
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "dadar",
+    "sub_locality_1_name": "Hasan Chamber, SS Wagh Marg, Shindewari, Radhika Saikripa Co-op Society,Naigaon",
+    "building_number": "90/4",
+    "floor_number": "3",
+    "pin_code": "400014"
+	},
+	{
+	
+	
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "Mahul Rd, Chembur Colony, Chembur",
+    "sub_locality_1_name": "Mahul Rd,Mahul Rd, Chembur Colony",
+    "building_number": "90/4",
+    "floor_number": "3",
+    "pin_code": "400074"
+	},
+	{
+	
+	
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "Zoom Plaza Mall, Gorai 1, Borivali",
+    "sub_locality_1_name": "Zoom Plaza Mall, Gorai 1",
+    "building_number": "90/4",
+    "floor_number": "3",
+    "pin_code": "400092"
+	},
+	{
+	
+	
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "Kandivali West",
+    "sub_locality_1_name": "Shri Sevantilal Khandwala Marg, Kandivali, Charkop Industrial Estate,",
+    "building_number": "90/4",
+    "floor_number": "3",
+    "pin_code": "400067"
+	},
+	{
+	
+	
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "Kurar, Ambewadi,Malad East",
+    "sub_locality_1_name": "near Shantaram Pond, Kurar Village Rd, Shantaram Talao, Kurar, Ambewadi",
+    "building_number": "90/4",
+    "floor_number": "3",
+    "pin_code": "400097"
+	},
+	{
+	
+	
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "AAREY, Goregaon",
+    "sub_locality_1_name": "CHECK NAKA, SHOP NO . 5 NAVYUG CHS, Western Express Hwy, near AAREY,",
+    "building_number": "5",
+    "floor_number": "",
+    "pin_code": "400063"
+	},
+	{
+	
+	
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "Jai Bhim Nagar, Goregaon,",
+    "sub_locality_1_name": "Jai Bhim Nagar, Goregaon,",
+    "building_number": "90/4",
+    "floor_number": "3",
+    "pin_code": "400065"
+	},
+	{
+	
+	
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "Ruhaan Enterprises, Hanuman Road, Western Express Hwy, Vile Parle East,",
+    "sub_locality_1_name": "Ruhaan Enterprises, Hanuman Road, Western Express Hwy, Vile Parle East,",
+    "building_number": "90/4",
+    "floor_number": "3",
+    "pin_code": "400057"
+	},
+	{
+	
+	
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "Andheri east",
+    "sub_locality_1_name": "J B Nagar",
+    "building_number": "90/4",
+    "floor_number": "3",
+    "pin_code": "400053"
+	},
+	{
+	
+	
+	"country_name": "India",
+    "state_name": "Maharashtra",
+    "district_name": "Mumbai",
+    "city_name": "Mumbai",
+    "locality_name": "State Bank of India, Plot No 12, 1St Floor, UTI Building, Rd Number 9, behind Hotel Tunga Paradise, Marol MIDC Industry Estate, Andheri East,",
+    "sub_locality_1_name": "State Bank of India, Plot No 12, 1St Floor, UTI Building, Rd Number 9, behind Hotel Tunga Paradise, Marol MIDC Industry Estate",
+    "building_number": "12",
+    "floor_number": "1",
+    "pin_code": "400093"
+	}
+
+	
+
+    
+

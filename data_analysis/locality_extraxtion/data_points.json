@@ -1,0 +1,2052 @@
+[
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -62.042439511765835,
+                89.74197304329476
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 1",
+        "aliases": [
+            "Alias 1"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 1",
+        "sub_locality_1_name": "Sub-Locality 1",
+        "building_number": "95",
+        "floor_number": "3",
+        "pin_code": "400632",
+        "last_updated_on": "2022-12-01T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.6",
+            "rule_applied_date": "2023-07-31T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                70.9753952181737,
+                50.199187861548126
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 2",
+        "aliases": [
+            "Alias 2"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 2",
+        "sub_locality_1_name": "Sub-Locality 2",
+        "building_number": "21",
+        "floor_number": "5",
+        "pin_code": "400899",
+        "last_updated_on": "2023-02-07T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.2",
+            "rule_applied_date": "2023-07-26T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                47.96163283153092,
+                -87.05420618758617
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 3",
+        "aliases": [
+            "Alias 3"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 3",
+        "sub_locality_1_name": "Sub-Locality 3",
+        "building_number": "50",
+        "floor_number": "5",
+        "pin_code": "400163",
+        "last_updated_on": "2023-07-28T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.8",
+            "rule_applied_date": "2023-07-31T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -52.0719551362056,
+                41.82523213095712
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 4",
+        "aliases": [
+            "Alias 4"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 4",
+        "sub_locality_1_name": "Sub-Locality 4",
+        "building_number": "10",
+        "floor_number": "5",
+        "pin_code": "400415",
+        "last_updated_on": "2023-02-10T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.2",
+            "rule_applied_date": "2023-08-11T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                100.11832667885005,
+                -80.05942325726828
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 5",
+        "aliases": [
+            "Alias 5"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 5",
+        "sub_locality_1_name": "Sub-Locality 5",
+        "building_number": "85",
+        "floor_number": "5",
+        "pin_code": "400209",
+        "last_updated_on": "2022-09-12T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.9",
+            "rule_applied_date": "2023-07-22T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -125.45464496393068,
+                61.84062256118045
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 6",
+        "aliases": [
+            "Alias 6"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 6",
+        "sub_locality_1_name": "Sub-Locality 6",
+        "building_number": "60",
+        "floor_number": "2",
+        "pin_code": "400410",
+        "last_updated_on": "2022-12-12T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.5",
+            "rule_applied_date": "2023-08-08T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                16.198851344164837,
+                -58.83386050036452
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 7",
+        "aliases": [
+            "Alias 7"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 7",
+        "sub_locality_1_name": "Sub-Locality 7",
+        "building_number": "37",
+        "floor_number": "5",
+        "pin_code": "400348",
+        "last_updated_on": "2022-11-30T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.6",
+            "rule_applied_date": "2023-07-22T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                118.63671772600134,
+                -59.51280201990441
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 8",
+        "aliases": [
+            "Alias 8"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 8",
+        "sub_locality_1_name": "Sub-Locality 8",
+        "building_number": "16",
+        "floor_number": "9",
+        "pin_code": "400138",
+        "last_updated_on": "2023-04-27T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.1",
+            "rule_applied_date": "2023-08-12T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                87.47670204905836,
+                -13.187402635693104
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 9",
+        "aliases": [
+            "Alias 9"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 9",
+        "sub_locality_1_name": "Sub-Locality 9",
+        "building_number": "79",
+        "floor_number": "9",
+        "pin_code": "400678",
+        "last_updated_on": "2022-09-22T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.3",
+            "rule_applied_date": "2023-07-23T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -16.404868569741495,
+                -64.11935163249305
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 10",
+        "aliases": [
+            "Alias 10"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 10",
+        "sub_locality_1_name": "Sub-Locality 10",
+        "building_number": "46",
+        "floor_number": "6",
+        "pin_code": "400681",
+        "last_updated_on": "2023-07-06T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.4",
+            "rule_applied_date": "2023-07-24T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -56.87148741903445,
+                52.466368884746885
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 11",
+        "aliases": [
+            "Alias 11"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 11",
+        "sub_locality_1_name": "Sub-Locality 11",
+        "building_number": "36",
+        "floor_number": "8",
+        "pin_code": "400185",
+        "last_updated_on": "2023-07-08T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.5",
+            "rule_applied_date": "2023-07-22T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                129.4975684459459,
+                55.38884713586606
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 12",
+        "aliases": [
+            "Alias 12"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 12",
+        "sub_locality_1_name": "Sub-Locality 12",
+        "building_number": "53",
+        "floor_number": "9",
+        "pin_code": "400592",
+        "last_updated_on": "2022-09-02T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.5",
+            "rule_applied_date": "2023-08-05T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                173.0623799692642,
+                -70.33732459763328
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 13",
+        "aliases": [
+            "Alias 13"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 13",
+        "sub_locality_1_name": "Sub-Locality 13",
+        "building_number": "40",
+        "floor_number": "7",
+        "pin_code": "400588",
+        "last_updated_on": "2022-11-13T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.9",
+            "rule_applied_date": "2023-07-29T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                109.44720479519452,
+                53.855799320790766
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 14",
+        "aliases": [
+            "Alias 14"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 14",
+        "sub_locality_1_name": "Sub-Locality 14",
+        "building_number": "37",
+        "floor_number": "9",
+        "pin_code": "400802",
+        "last_updated_on": "2022-10-01T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.2",
+            "rule_applied_date": "2023-08-05T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -5.786698901645082,
+                -21.296222849074624
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 15",
+        "aliases": [
+            "Alias 15"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 15",
+        "sub_locality_1_name": "Sub-Locality 15",
+        "building_number": "28",
+        "floor_number": "2",
+        "pin_code": "400384",
+        "last_updated_on": "2023-04-23T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.6",
+            "rule_applied_date": "2023-07-20T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -125.57809566009064,
+                -2.9112831842522127
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 16",
+        "aliases": [
+            "Alias 16"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 16",
+        "sub_locality_1_name": "Sub-Locality 16",
+        "building_number": "89",
+        "floor_number": "6",
+        "pin_code": "400278",
+        "last_updated_on": "2023-01-03T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.6",
+            "rule_applied_date": "2023-08-15T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -76.1100810800548,
+                -56.002635223891524
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 17",
+        "aliases": [
+            "Alias 17"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 17",
+        "sub_locality_1_name": "Sub-Locality 17",
+        "building_number": "99",
+        "floor_number": "4",
+        "pin_code": "400521",
+        "last_updated_on": "2023-05-31T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.9",
+            "rule_applied_date": "2023-07-21T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -31.669526913643836,
+                73.02927211915187
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 18",
+        "aliases": [
+            "Alias 18"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 18",
+        "sub_locality_1_name": "Sub-Locality 18",
+        "building_number": "33",
+        "floor_number": "7",
+        "pin_code": "400793",
+        "last_updated_on": "2022-10-28T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.4",
+            "rule_applied_date": "2023-08-11T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -110.62080633891155,
+                -3.557256687229639
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 19",
+        "aliases": [
+            "Alias 19"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 19",
+        "sub_locality_1_name": "Sub-Locality 19",
+        "building_number": "36",
+        "floor_number": "5",
+        "pin_code": "400212",
+        "last_updated_on": "2023-05-22T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.3",
+            "rule_applied_date": "2023-08-08T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -61.40221374195987,
+                86.50207476994791
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 20",
+        "aliases": [
+            "Alias 20"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 20",
+        "sub_locality_1_name": "Sub-Locality 20",
+        "building_number": "72",
+        "floor_number": "6",
+        "pin_code": "400280",
+        "last_updated_on": "2023-06-26T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.6",
+            "rule_applied_date": "2023-07-24T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -171.82542886662782,
+                60.39644192291624
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 21",
+        "aliases": [
+            "Alias 21"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 21",
+        "sub_locality_1_name": "Sub-Locality 21",
+        "building_number": "97",
+        "floor_number": "10",
+        "pin_code": "400848",
+        "last_updated_on": "2022-11-05T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.3",
+            "rule_applied_date": "2023-07-30T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                13.294696120697239,
+                -29.981451734188482
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 22",
+        "aliases": [
+            "Alias 22"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 22",
+        "sub_locality_1_name": "Sub-Locality 22",
+        "building_number": "68",
+        "floor_number": "1",
+        "pin_code": "400700",
+        "last_updated_on": "2023-05-29T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.8",
+            "rule_applied_date": "2023-08-05T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -81.19507223769665,
+                62.269696389825015
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 23",
+        "aliases": [
+            "Alias 23"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 23",
+        "sub_locality_1_name": "Sub-Locality 23",
+        "building_number": "27",
+        "floor_number": "7",
+        "pin_code": "400787",
+        "last_updated_on": "2023-07-21T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.2",
+            "rule_applied_date": "2023-08-15T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -136.33377944050113,
+                37.81530749832136
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 24",
+        "aliases": [
+            "Alias 24"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 24",
+        "sub_locality_1_name": "Sub-Locality 24",
+        "building_number": "10",
+        "floor_number": "8",
+        "pin_code": "400520",
+        "last_updated_on": "2022-09-14T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.10",
+            "rule_applied_date": "2023-08-13T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                77.30355719451671,
+                89.50341546537865
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 25",
+        "aliases": [
+            "Alias 25"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 25",
+        "sub_locality_1_name": "Sub-Locality 25",
+        "building_number": "71",
+        "floor_number": "2",
+        "pin_code": "400543",
+        "last_updated_on": "2022-09-09T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.10",
+            "rule_applied_date": "2023-07-28T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -22.13038455860027,
+                -26.885602098241613
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 26",
+        "aliases": [
+            "Alias 26"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 26",
+        "sub_locality_1_name": "Sub-Locality 26",
+        "building_number": "89",
+        "floor_number": "8",
+        "pin_code": "400379",
+        "last_updated_on": "2023-07-24T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.4",
+            "rule_applied_date": "2023-07-18T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                29.320386088989096,
+                -58.42124723649631
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 27",
+        "aliases": [
+            "Alias 27"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 27",
+        "sub_locality_1_name": "Sub-Locality 27",
+        "building_number": "65",
+        "floor_number": "3",
+        "pin_code": "400121",
+        "last_updated_on": "2022-12-29T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.6",
+            "rule_applied_date": "2023-07-26T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                7.392917548489891,
+                71.91824858107825
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 28",
+        "aliases": [
+            "Alias 28"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 28",
+        "sub_locality_1_name": "Sub-Locality 28",
+        "building_number": "88",
+        "floor_number": "1",
+        "pin_code": "400717",
+        "last_updated_on": "2023-02-03T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.9",
+            "rule_applied_date": "2023-08-09T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                54.501838274823484,
+                7.653416726380996
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 29",
+        "aliases": [
+            "Alias 29"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 29",
+        "sub_locality_1_name": "Sub-Locality 29",
+        "building_number": "37",
+        "floor_number": "6",
+        "pin_code": "400149",
+        "last_updated_on": "2023-05-24T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.3",
+            "rule_applied_date": "2023-08-13T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -159.56629374920163,
+                -24.67800377058255
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 30",
+        "aliases": [
+            "Alias 30"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 30",
+        "sub_locality_1_name": "Sub-Locality 30",
+        "building_number": "79",
+        "floor_number": "8",
+        "pin_code": "400381",
+        "last_updated_on": "2023-05-18T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.6",
+            "rule_applied_date": "2023-08-05T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                143.30513355958942,
+                -5.260235180900821
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 31",
+        "aliases": [
+            "Alias 31"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 31",
+        "sub_locality_1_name": "Sub-Locality 31",
+        "building_number": "83",
+        "floor_number": "8",
+        "pin_code": "400184",
+        "last_updated_on": "2022-11-10T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.2",
+            "rule_applied_date": "2023-08-13T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                132.19104067573414,
+                42.09481573756776
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 32",
+        "aliases": [
+            "Alias 32"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 32",
+        "sub_locality_1_name": "Sub-Locality 32",
+        "building_number": "51",
+        "floor_number": "5",
+        "pin_code": "400578",
+        "last_updated_on": "2023-03-14T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.6",
+            "rule_applied_date": "2023-08-02T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                16.460552560901704,
+                -82.45903336495901
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 33",
+        "aliases": [
+            "Alias 33"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 33",
+        "sub_locality_1_name": "Sub-Locality 33",
+        "building_number": "8",
+        "floor_number": "2",
+        "pin_code": "400593",
+        "last_updated_on": "2023-04-05T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.8",
+            "rule_applied_date": "2023-07-28T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -165.51110759472323,
+                16.014194602167336
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 34",
+        "aliases": [
+            "Alias 34"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 34",
+        "sub_locality_1_name": "Sub-Locality 34",
+        "building_number": "65",
+        "floor_number": "1",
+        "pin_code": "400754",
+        "last_updated_on": "2022-12-02T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.4",
+            "rule_applied_date": "2023-07-23T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                64.86868633532325,
+                33.323134175813024
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 35",
+        "aliases": [
+            "Alias 35"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 35",
+        "sub_locality_1_name": "Sub-Locality 35",
+        "building_number": "44",
+        "floor_number": "10",
+        "pin_code": "400339",
+        "last_updated_on": "2023-07-04T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.2",
+            "rule_applied_date": "2023-08-05T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                36.31418099833826,
+                53.22762469688908
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 36",
+        "aliases": [
+            "Alias 36"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 36",
+        "sub_locality_1_name": "Sub-Locality 36",
+        "building_number": "41",
+        "floor_number": "4",
+        "pin_code": "400999",
+        "last_updated_on": "2023-04-27T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.9",
+            "rule_applied_date": "2023-08-04T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -117.31996079707658,
+                -42.037891687494074
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 37",
+        "aliases": [
+            "Alias 37"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 37",
+        "sub_locality_1_name": "Sub-Locality 37",
+        "building_number": "12",
+        "floor_number": "2",
+        "pin_code": "400359",
+        "last_updated_on": "2022-12-09T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.8",
+            "rule_applied_date": "2023-08-07T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -147.1498876596998,
+                -15.886878069207114
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 38",
+        "aliases": [
+            "Alias 38"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 38",
+        "sub_locality_1_name": "Sub-Locality 38",
+        "building_number": "77",
+        "floor_number": "5",
+        "pin_code": "400794",
+        "last_updated_on": "2023-02-09T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.9",
+            "rule_applied_date": "2023-07-21T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -138.68706582952655,
+                -31.82182989907553
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 39",
+        "aliases": [
+            "Alias 39"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 39",
+        "sub_locality_1_name": "Sub-Locality 39",
+        "building_number": "74",
+        "floor_number": "2",
+        "pin_code": "400633",
+        "last_updated_on": "2022-08-26T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.6",
+            "rule_applied_date": "2023-08-03T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                21.044815231488542,
+                75.95887514888909
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 40",
+        "aliases": [
+            "Alias 40"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 40",
+        "sub_locality_1_name": "Sub-Locality 40",
+        "building_number": "28",
+        "floor_number": "1",
+        "pin_code": "400206",
+        "last_updated_on": "2022-09-10T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.1",
+            "rule_applied_date": "2023-07-31T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -162.46864800256418,
+                -84.30601844524335
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 41",
+        "aliases": [
+            "Alias 41"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 41",
+        "sub_locality_1_name": "Sub-Locality 41",
+        "building_number": "61",
+        "floor_number": "5",
+        "pin_code": "400115",
+        "last_updated_on": "2022-10-25T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.6",
+            "rule_applied_date": "2023-08-01T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                126.46132189060091,
+                -70.6090384837502
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 42",
+        "aliases": [
+            "Alias 42"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 42",
+        "sub_locality_1_name": "Sub-Locality 42",
+        "building_number": "43",
+        "floor_number": "5",
+        "pin_code": "400982",
+        "last_updated_on": "2022-09-11T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.10",
+            "rule_applied_date": "2023-08-15T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                93.69340391942478,
+                5.516312795628977
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 43",
+        "aliases": [
+            "Alias 43"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 43",
+        "sub_locality_1_name": "Sub-Locality 43",
+        "building_number": "38",
+        "floor_number": "4",
+        "pin_code": "400622",
+        "last_updated_on": "2022-09-13T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.3",
+            "rule_applied_date": "2023-07-22T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -90.87715124245099,
+                -34.68957886929863
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 44",
+        "aliases": [
+            "Alias 44"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 44",
+        "sub_locality_1_name": "Sub-Locality 44",
+        "building_number": "79",
+        "floor_number": "5",
+        "pin_code": "400507",
+        "last_updated_on": "2022-11-13T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.1",
+            "rule_applied_date": "2023-07-28T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                87.09378703225735,
+                13.072889678798518
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 45",
+        "aliases": [
+            "Alias 45"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 45",
+        "sub_locality_1_name": "Sub-Locality 45",
+        "building_number": "57",
+        "floor_number": "5",
+        "pin_code": "400886",
+        "last_updated_on": "2022-11-01T15:30:38.959212",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.10",
+            "rule_applied_date": "2023-07-30T15:30:38.959212"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                146.86257095419006,
+                30.320272695331013
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 46",
+        "aliases": [
+            "Alias 46"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 46",
+        "sub_locality_1_name": "Sub-Locality 46",
+        "building_number": "94",
+        "floor_number": "4",
+        "pin_code": "400883",
+        "last_updated_on": "2023-01-12T15:30:38.960218",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.10",
+            "rule_applied_date": "2023-08-01T15:30:38.960218"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                169.68593432207928,
+                72.44341733974585
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 47",
+        "aliases": [
+            "Alias 47"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 47",
+        "sub_locality_1_name": "Sub-Locality 47",
+        "building_number": "34",
+        "floor_number": "9",
+        "pin_code": "400248",
+        "last_updated_on": "2022-11-11T15:30:38.960218",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.5",
+            "rule_applied_date": "2023-08-08T15:30:38.960218"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                176.05033233061152,
+                -65.78286646947193
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 48",
+        "aliases": [
+            "Alias 48"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 48",
+        "sub_locality_1_name": "Sub-Locality 48",
+        "building_number": "50",
+        "floor_number": "5",
+        "pin_code": "400842",
+        "last_updated_on": "2023-07-16T15:30:38.960218",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.3",
+            "rule_applied_date": "2023-08-08T15:30:38.960218"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -70.6112035188953,
+                -14.942992093236853
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 49",
+        "aliases": [
+            "Alias 49"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 49",
+        "sub_locality_1_name": "Sub-Locality 49",
+        "building_number": "97",
+        "floor_number": "9",
+        "pin_code": "400431",
+        "last_updated_on": "2023-07-14T15:30:38.960218",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.4",
+            "rule_applied_date": "2023-08-04T15:30:38.960218"
+        }
+    },
+    {
+        "is_searchable": true,
+        "display_on_map": false,
+        "zoom_level": 13,
+        "type": "",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -93.15020863974453,
+                86.74088276499876
+            ]
+        },
+        "main_category": "Education",
+        "sub_categories": [
+            "University"
+        ],
+        "display_name": "",
+        "full_name": "University 50",
+        "aliases": [
+            "Alias 50"
+        ],
+        "country_name": "India",
+        "state_name": "Maharashtra",
+        "district_name": "Mumbai",
+        "city_name": "Mumbai",
+        "locality_name": "Locality 50",
+        "sub_locality_1_name": "Sub-Locality 50",
+        "building_number": "90",
+        "floor_number": "4",
+        "pin_code": "400943",
+        "last_updated_on": "2022-09-05T15:30:38.960218",
+        "source": "Internal",
+        "external_references": [],
+        "filtration_tag": [
+            "non-poi"
+        ],
+        "rule_applied": {
+            "rule_id": "100.10",
+            "rule_applied_date": "2023-07-24T15:30:38.960218"
+        }
+    }
+]
